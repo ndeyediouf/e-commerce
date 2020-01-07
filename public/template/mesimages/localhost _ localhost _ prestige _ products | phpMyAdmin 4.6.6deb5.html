@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html dir="ltr" class="firefox firefox70" lang="fr"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="referrer" content="no-referrer"><meta name="robots" content="noindex,nofollow"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><link rel="icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon"><link rel="shortcut icon" href="http://localhost/phpmyadmin/favicon.ico" type="image/x-icon"><link rel="stylesheet" type="text/css" href="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/jquery-ui-1.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/codemirror.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/show-hint.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/lint.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/phpmyadmin.css"><link rel="stylesheet" type="text/css" href="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/printview.css" media="print" id="printcss"><title>localhost / localhost / prestige / products | phpMyAdmin 4.6.6deb5</title><script data-cfasync="false" type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/whitelist.php"></script><script data-cfasync="false" type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_scripts_003.php"></script><script data-cfasync="false" type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_scripts_002.php"></script><script data-cfasync="false" type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_scripts.php"></script><script data-cfasync="false" type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_scripts_004.php"></script><script data-cfasync="false" type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/messages.php"></script><script data-cfasync="false" type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_image.php"></script><script data-cfasync="false" type="text/javascript">// <![CDATA[
+PMA_commonParams.setAll({common_query:"?token=3f5d7654d37342c00ec3823fd11f650c",opendb_url:"db_structure.php",safari_browser:"0",collation_connection:"utf8mb4_unicode_ci",lang:"fr",server:"1",table:"",db:"",token:"3f5d7654d37342c00ec3823fd11f650c",text_dir:"ltr",show_databases_navigation_as_tree:"1",pma_text_default_tab:"Afficher",pma_text_left_default_tab:"Structure",pma_text_left_default_tab2:"",LimitChars:"50",pftext:"",confirm:"1",LoginCookieValidity:"1440",logged_in:"1",PMA_VERSION:"4.6.6deb5",auth_type:"cookie"});
+ConsoleEnterExecutes=false
+AJAX.scriptHandler.add("jquery/jquery-2.1.4.min.js",0).add("whitelist.php?lang=fr&amp;db=&amp;token=3f5d7654d37342c00ec3823fd11f650c",1).add("sprintf.js",1).add("ajax.js",0).add("keyhandler.js",1).add("jquery/jquery-ui-1.11.4.min.js",0).add("jquery/jquery.cookie.js",0).add("jquery/jquery.mousewheel.js",0).add("jquery/jquery.event.drag-2.2.js",0).add("jquery/jquery-ui-timepicker-addon.js",0).add("jquery/jquery.ba-hashchange-1.3.js",0).add("jquery/jquery.debounce-1.0.5.js",0).add("menu-resizer.js",1).add("cross_framing_protection.js",0).add("rte.js",1).add("tracekit/tracekit.js",1).add("error_report.js",1).add("messages.php?lang=fr&amp;db=&amp;token=3f5d7654d37342c00ec3823fd11f650c",0).add("get_image.js.php?theme=pmahomme",0).add("config.js",1).add("doclinks.js",1).add("functions.js",1).add("navigation.js",1).add("indexes.js",1).add("common.js",1).add("page_settings.js",1).add("codemirror/lib/codemirror.js",0).add("codemirror/mode/sql/sql.js",0).add("codemirror/addon/runmode/runmode.js",0).add("codemirror/addon/hint/show-hint.js",0).add("codemirror/addon/hint/sql-hint.js",0).add("codemirror/addon/lint/lint.js",0).add("codemirror/addon/lint/sql-lint.js",0).add("console.js",1);
+$(function() {AJAX.fireOnload("whitelist.php?lang=fr&amp;db=&amp;token=3f5d7654d37342c00ec3823fd11f650c");AJAX.fireOnload("sprintf.js");AJAX.fireOnload("keyhandler.js");AJAX.fireOnload("menu-resizer.js");AJAX.fireOnload("rte.js");AJAX.fireOnload("tracekit/tracekit.js");AJAX.fireOnload("error_report.js");AJAX.fireOnload("config.js");AJAX.fireOnload("doclinks.js");AJAX.fireOnload("functions.js");AJAX.fireOnload("navigation.js");AJAX.fireOnload("indexes.js");AJAX.fireOnload("common.js");AJAX.fireOnload("page_settings.js");AJAX.fireOnload("console.js");});
+// ]]></script><noscript><style>html{display:block}</style></noscript><script type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_scripts_007.php"></script><script type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_scripts_005.php"></script><script type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_scripts_008.php"></script><script type="text/javascript" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/get_scripts_006.php"></script></head><body style="margin-bottom: 19px; padding-top: 60px;"><div id="pma_navigation"><div id="pma_navigation_resizer"></div><div id="pma_navigation_collapser">←</div><div id="pma_navigation_content"><div id="pma_navigation_header"><a class="hide navigation_url" href="http://localhost/phpmyadmin/navigation.php?ajax_request=1&amp;token=3f5d7654d37342c00ec3823fd11f650c"></a><!-- LOGO START -->
+<div id="pmalogo">
+            <a href="http://localhost/phpmyadmin/index.php?token=3f5d7654d37342c00ec3823fd11f650c">
+        <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/logo_left.png" alt="phpMyAdmin" id="imgpmalogo">            </a>
+    </div>
+<!-- LOGO END --><!-- LINKS START --><div id="navipanellinks"><a href="http://localhost/phpmyadmin/index.php?token=3f5d7654d37342c00ec3823fd11f650c" title="Accueil"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Accueil" alt="Accueil" class="icon ic_b_home"></a><a href="http://localhost/phpmyadmin/logout.php?db=&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="disableAjax" title="Quitter"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Quitter" alt="Quitter" class="icon ic_s_loggoff"></a><a href="http://localhost/phpmyadmin/doc/html/index.html" target="documentation" title="Documentation de phpMyAdmin"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation de phpMyAdmin" alt="Documentation de phpMyAdmin" class="icon ic_b_docs"></a><a href="http://localhost/phpmyadmin/url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.7%2Fen%2Findex.html" target="mysql_doc" title="Documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_sqlhelp"></a><a href="#" id="pma_navigation_settings_icon" title="Paramètres du panneau de navigation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Paramètres du panneau de navigation" alt="Paramètres du panneau de navigation" class="icon ic_s_cog"></a><a href="#" id="pma_navigation_reload" title="Actualiser le panneau de navigation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Actualiser le panneau de navigation" alt="Actualiser le panneau de navigation" class="icon ic_s_reload"></a></div><!-- LINKS ENDS --><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/ajax_clock_small.gif" title="Chargement en cours…" alt="Chargement en cours…" style="visibility: hidden; display:none" class="throbber"></div><div id="pma_navigation_tree" class="list_container synced highlight" style="height: 583px;"><div class="pma_quick_warp"><div class="drop_list"><span title="Tables récentes" class="drop_button">Récentes</span><ul id="pma_recent_list"><li class="warp_link"><a href="http://localhost/phpmyadmin/tbl_recent_favorite.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c">`prestige`.`products`</a></li></ul></div><div class="drop_list"><span title="Tables préférées" class="drop_button">Préférées</span><ul id="pma_favorite_list"><li class="warp_link">Il n'y a pas de tables préférées.</li></ul></div><div class="clearfloat"></div></div><div class="clearfloat"></div><ul><!-- CONTROLS START --><li id="navigation_controls_outer"><div id="navigation_controls"><a href="#" id="pma_navigation_collapse" title="Tout réduire"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/s_collapseall.png" title="Tout réduire" alt="Tout réduire"></a><a href="#" id="pma_navigation_sync" title="Supprimer la liaison au panneau principal"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Supprimer la liaison au panneau principal" alt="Supprimer la liaison au panneau principal" class="icon ic_s_link"></a></div></li><!-- CONTROLS ENDS --></ul><div id="pma_navigation_tree_content" style="height: 532px;"><ul><li class="first new_database italics"><div class="block"><i class="first"></i></div><div class="block "><a href="http://localhost/phpmyadmin/server_databases.php?server=1&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_b_newdb"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/server_databases.php?server=1&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="">Nouvelle base de données</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.R09VUEUx</span><span class="hide vPath">cm9vdA==.R09VUEUx</span><span class="hide pos">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=GOUPE1&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=GOUPE1&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Structure">GOUPE1</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.SG90ZWxUZXJhbmdh</span><span class="hide vPath">cm9vdA==.SG90ZWxUZXJhbmdh</span><span class="hide pos">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=HotelTeranga&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=HotelTeranga&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Structure">HotelTeranga</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h</span><span class="hide vPath">cm9vdA==.aW5mb3JtYXRpb25fc2NoZW1h</span><span class="hide pos">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=information_schema&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=information_schema&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Structure">information_schema</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.bXlzcWw=</span><span class="hide vPath">cm9vdA==.bXlzcWw=</span><span class="hide pos">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=mysql&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=mysql&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Structure">mysql</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h</span><span class="hide vPath">cm9vdA==.cGVyZm9ybWFuY2Vfc2NoZW1h</span><span class="hide pos">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=performance_schema&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=performance_schema&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Structure">performance_schema</a><div class="clearfloat"></div></li><li class="database"><div class="block"><i></i><b></b><a class="expander loaded" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=</span><span class="hide pos">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_minus" style="display: inline;"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=prestige&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=prestige&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Structure">prestige</a><div class="clearfloat"></div><div class="list_container" style=""><ul><li class="new_table italics"><div class="block"><i></i><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_create.php?server=1&amp;db=prestige&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Nouvelle table" alt="Nouvelle table" class="icon ic_b_table_add"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/tbl_create.php?server=1&amp;db=prestige&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="">Nouvelle table</a><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.Y2F0ZWdvcmllcw==</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.Y2F0ZWdvcmllcw==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=categories&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=categories&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">categories</a><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.ZmFpbGVkX2pvYnM=</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.ZmFpbGVkX2pvYnM=</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=failed_jobs&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=failed_jobs&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">failed_jobs</a><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.bWlncmF0aW9ucw==</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.bWlncmF0aW9ucw==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=migrations&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=migrations&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">migrations</a><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.b3JkZXJz</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.b3JkZXJz</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=orders&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=orders&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">orders</a><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.b3JkZXJfcHJvZHVjdA==</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.b3JkZXJfcHJvZHVjdA==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=order_product&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=order_product&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">order_product</a><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.cGFzc3dvcmRfcmVzZXRz</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.cGFzc3dvcmRfcmVzZXRz</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=password_resets&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=password_resets&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">password_resets</a><div class="clearfloat"></div></li><li class="table selected"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.cHJvZHVjdHM=</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.cHJvZHVjdHM=</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=products&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">products</a><div class="clearfloat"></div></li><li class="table"><div class="block"><i></i><b></b><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.cHJvZHVpdA==</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.cHJvZHVpdA==</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=produit&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=produit&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">produit</a><div class="clearfloat"></div></li><li class="last table"><div class="block"><i></i><a class="expander" href="#"><span class="hide aPath">cm9vdA==.cHJlc3RpZ2U=.dGFibGVz.dXNlcnM=</span><span class="hide vPath">cm9vdA==.cHJlc3RpZ2U=.VGFibGVz.dXNlcnM=</span><span class="hide pos">0</span><span class="hide pos2_name">tables</span><span class="hide pos2_value">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/tbl_structure.php?server=1&amp;db=prestige&amp;table=users&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/sql.php?server=1&amp;db=prestige&amp;table=users&amp;pos=0&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Afficher">users</a><div class="clearfloat"></div></li></ul></div></li><li class="last database"><div class="block"><i></i><a class="expander" href="#"><span class="hide aPath">cm9vdA==.c3lz</span><span class="hide vPath">cm9vdA==.c3lz</span><span class="hide pos">0</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Développer/réduire" alt="Développer/réduire" class="icon ic_b_plus"></a></div><div class="block "><a href="http://localhost/phpmyadmin/db_operations.php?server=1&amp;db=sys&amp;token=3f5d7654d37342c00ec3823fd11f650c"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Opérations sur base de données" alt="Opérations sur base de données" class="icon ic_s_db"></a></div><a class="hover_show_full" href="http://localhost/phpmyadmin/db_structure.php?server=1&amp;db=sys&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Structure">sys</a><div class="clearfloat"></div></li></ul></div></div><div id="pma_navi_settings_container"><div id="pma_navigation_settings"><div class="page_settings"><form method="post" action="tbl_change.php?db=prestige&amp;table=products&amp;server=1&amp;target=&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="config-form disableAjax"><input type="hidden" name="tab_hash" value=""><input type="hidden" name="check_page_refresh" id="check_page_refresh" value="1">
+<input type="hidden" name="token" value="3f5d7654d37342c00ec3823fd11f650c">
+<input type="hidden" name="submit_save" value="Navi_panel"><ul class="tabs">
+
+                                    <li class="active">
+
+            <a href="#Navi_panel">
+            Panneau de navigation            </a>
+        </li>
+                                <li>
+
+            <a href="#Navi_tree">
+            Arborescence de navigation            </a>
+        </li>
+                                <li>
+
+            <a href="#Navi_databases">
+            Bases de données            </a>
+        </li>
+                                <li>
+
+            <a href="#Navi_tables">
+            Tables            </a>
+        </li>
+            </ul><br clear="right"><div class="tabs_contents"><fieldset class="optbox" id="Navi_panel" style="display: block;"><legend>Panneau de navigation</legend><p>Personnaliser l'apparence du panneau de navigation.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="ShowDatabasesNavigationAsTree">Afficher la navigation de bases de données en tant qu'arborescence</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowDatabasesNavigationAsTree" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Dans le volet de navigation, remplace l'arborescence de la base de données par un sélecteur</small></th><td><span class="checkbox"><input type="checkbox" name="ShowDatabasesNavigationAsTree" id="ShowDatabasesNavigationAsTree" checked="checked"></span><a class="restore-default" href="#ShowDatabasesNavigationAsTree" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLinkWithMainPanel">Relier au panneau principal</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLinkWithMainPanel" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Relier au panneau principal en mettant en surbrillance la base de données ou la table active.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationLinkWithMainPanel" id="NavigationLinkWithMainPanel" checked="checked"></span><a class="restore-default" href="#NavigationLinkWithMainPanel" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationDisplayLogo">Affichage du logo</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationDisplayLogo" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Montrer le logo dans le panneau de navigation.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationDisplayLogo" id="NavigationDisplayLogo" checked="checked"></span><a class="restore-default" href="#NavigationDisplayLogo" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLogoLink">URL du lien sous le logo</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLink" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>L'URL vers lequel pointera le logo dans le panneau de navigation.</small></th><td><input type="text" size="40" name="NavigationLogoLink" id="NavigationLogoLink" value="index.php"><a class="restore-default" href="#NavigationLogoLink" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationLogoLinkWindow">Fenêtre-cible pour la page ouverte lors d'un clic sur le logo</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationLogoLinkWindow" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Pour la fenêtre principale, (<kbd>main</kbd>) ou dans une nouvelle fenêtre, (<kbd>new</kbd>).</small></th><td><select name="NavigationLogoLinkWindow" id="NavigationLogoLinkWindow"><option value="main" selected="selected">main</option><option value="new">new</option></select><a class="restore-default" href="#NavigationLogoLinkWindow" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreePointerEnable">Active la surbrillance</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreePointerEnable" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Faire ressortir le nom du serveur dans le panneau de navigation.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreePointerEnable" id="NavigationTreePointerEnable" checked="checked"></span><a class="restore-default" href="#NavigationTreePointerEnable" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="FirstLevelNavigationItems">Nombre maximum d'éléments au premier niveau</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_FirstLevelNavigationItems" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Le nombre d'éléments qui peuvent être affichés pour chaque page du premier niveau de l'arborescence de navigation.</small></th><td><input type="number" name="FirstLevelNavigationItems" id="FirstLevelNavigationItems" value="100"><a class="restore-default" href="#FirstLevelNavigationItems" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDisplayItemFilterMinimum">Nombre minimum d'éléments pour afficher la boîte de filtrage</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayItemFilterMinimum" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Définit le nombre minimum d'éléments (tables, vues, procédures et événements) nécessaires pour afficher la boîte de filtrage.</small></th><td><input type="number" name="NavigationTreeDisplayItemFilterMinimum" id="NavigationTreeDisplayItemFilterMinimum" value="30"><a class="restore-default" href="#NavigationTreeDisplayItemFilterMinimum" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NumRecentTables">Tables récemment utilisées</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NumRecentTables" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Nombre maximum de tables récentes; mettre 0 pour désactiver.</small></th><td><input type="number" name="NumRecentTables" id="NumRecentTables" value="10"><a class="restore-default" href="#NumRecentTables" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NumFavoriteTables">Tables préférées</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NumFavoriteTables" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Le nombre maximum de tables préférées; définir à 0 pour désactiver.</small></th><td><input type="number" name="NumFavoriteTables" id="NumFavoriteTables" value="10"><a class="restore-default" href="#NumFavoriteTables" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_tree" style="display: none;"><legend>Arborescence de navigation</legend><p>Personnaliser l'arborescence de navigation.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="MaxNavigationItems">Nombre maximum d'éléments dans la branche</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_MaxNavigationItems" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Le nombre d'éléments qui peuvent être affichés pour chaque page de l'arborescence de navigation.</small></th><td><input type="number" name="MaxNavigationItems" id="MaxNavigationItems" value="50"><a class="restore-default" href="#MaxNavigationItems" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeEnableGrouping">Regrouper les éléments dans l'arborescence</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableGrouping" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Regrouper les éléments dans l'arborescence de navigation 
+(déterminé par le séparateur défini dans les onglets Bases de données et
+ Tables ci-haut).</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeEnableGrouping" id="NavigationTreeEnableGrouping" checked="checked"></span><a class="restore-default" href="#NavigationTreeEnableGrouping" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeEnableExpansion">Permettre l'expansion de l'arborescence dans la navigation</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeEnableExpansion" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>S'il faut offrir la possibilité d'expansion de l'arborescence dans le panneau de navigation.</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeEnableExpansion" id="NavigationTreeEnableExpansion" checked="checked"></span><a class="restore-default" href="#NavigationTreeEnableExpansion" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowTables">Afficher les tables dans l'arborescence</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowTables" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Si vous souhaitez afficher les tables dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowTables" id="NavigationTreeShowTables" checked="checked"></span><a class="restore-default" href="#NavigationTreeShowTables" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowViews">Montrer les vues dans l'arborescence</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowViews" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Si vous souhaitez afficher les vues dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowViews" id="NavigationTreeShowViews" checked="checked"></span><a class="restore-default" href="#NavigationTreeShowViews" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowFunctions">Montrer les fonctions dans l'arborescence</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowFunctions" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Si vous souhaitez afficher les fonctions dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowFunctions" id="NavigationTreeShowFunctions" checked="checked"></span><a class="restore-default" href="#NavigationTreeShowFunctions" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowProcedures">Montrer les procédures dans l'arborescence</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowProcedures" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Si vous souhaitez afficher les procédures dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowProcedures" id="NavigationTreeShowProcedures" checked="checked"></span><a class="restore-default" href="#NavigationTreeShowProcedures" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeShowEvents">Montrer les événements dans l'arborescence</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeShowEvents" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Si vous souhaitez afficher les événements dans l'arborescence de navigation</small></th><td><span class="checkbox"><input type="checkbox" name="NavigationTreeShowEvents" id="NavigationTreeShowEvents" checked="checked"></span><a class="restore-default" href="#NavigationTreeShowEvents" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_databases" style="display: none;"><legend>Bases de données</legend><p>Options d'affichage des bases de données.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="NavigationTreeDisplayDbFilterMinimum">Nombre minimum de bases de données pour activer le filtre</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDisplayDbFilterMinimum" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><input type="number" name="NavigationTreeDisplayDbFilterMinimum" id="NavigationTreeDisplayDbFilterMinimum" value="30"><a class="restore-default" href="#NavigationTreeDisplayDbFilterMinimum" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDbSeparator">Séparateur pour l'arborescence des bases de données</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDbSeparator" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Chaîne qui sépare les noms de bases de données en niveaux.</small></th><td><input type="text" size="25" name="NavigationTreeDbSeparator" id="NavigationTreeDbSeparator" value="_"><a class="restore-default" href="#NavigationTreeDbSeparator" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Navi_tables" style="display: none;"><legend>Tables</legend><p>Options d'affichage des tables.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="NavigationTreeDefaultTabTable">Cible de l'icône d'accès rapide</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><select name="NavigationTreeDefaultTabTable" id="NavigationTreeDefaultTabTable"><option value="structure" selected="selected">Structure</option><option value="sql">SQL</option><option value="search">Rechercher</option><option value="insert">Insérer</option><option value="browse">Afficher</option></select><a class="restore-default" href="#NavigationTreeDefaultTabTable" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeDefaultTabTable2">Cible de la deuxième icône d'accès rapide</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeDefaultTabTable2" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><select name="NavigationTreeDefaultTabTable2" id="NavigationTreeDefaultTabTable2"><option value="" selected="selected"></option><option value="structure">Structure</option><option value="sql">SQL</option><option value="search">Rechercher</option><option value="insert">Insérer</option><option value="browse">Afficher</option></select><a class="restore-default" href="#NavigationTreeDefaultTabTable2" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeTableSeparator">Séparateur pour l'arborescence des noms de tables</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableSeparator" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Chaîne qui sépare les noms de table en niveaux.</small></th><td><input type="text" size="25" name="NavigationTreeTableSeparator" id="NavigationTreeTableSeparator" value="__"><a class="restore-default" href="#NavigationTreeTableSeparator" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="NavigationTreeTableLevel">Nombre de niveaux pour l'arborescence des tables</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_NavigationTreeTableLevel" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span></th><td><input type="number" name="NavigationTreeTableLevel" id="NavigationTreeTableLevel" value="1"><a class="restore-default" href="#NavigationTreeTableLevel" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset></div>
+</form>
+<script type="text/javascript">
+if (typeof configInlineParams === "undefined" || !Array.isArray(configInlineParams)) configInlineParams = [];
+configInlineParams.push(function() {
+validateField('FirstLevelNavigationItems', 'PMA_validatePositiveNumber', true);
+validateField('NumRecentTables', 'PMA_validateNonNegativeNumber', true);
+validateField('NumFavoriteTables', 'PMA_validateNonNegativeNumber', true);
+validateField('MaxNavigationItems', 'PMA_validatePositiveNumber', true);
+validateField('NavigationTreeTableLevel', 'PMA_validatePositiveNumber', true);
+$.extend(PMA_messages, {
+	'error_nan_p': 'Nombre non positif !',
+	'error_nan_nneg': 'Ce n\'est pas un nombre non négatif !',
+	'error_incorrect_port': 'Numéro de port invalide !',
+	'error_invalid_value': 'Valeur incorrecte !',
+	'error_value_lte': 'La valeur doit être égale ou plus petite que %s !'});
+$.extend(defaultValues, {
+	'ShowDatabasesNavigationAsTree': true,
+	'NavigationLinkWithMainPanel': true,
+	'NavigationDisplayLogo': true,
+	'NavigationLogoLink': 'index.php',
+	'NavigationLogoLinkWindow': ['main'],
+	'NavigationTreePointerEnable': true,
+	'FirstLevelNavigationItems': '100',
+	'NavigationTreeDisplayItemFilterMinimum': '30',
+	'NumRecentTables': '10',
+	'NumFavoriteTables': '10',
+	'MaxNavigationItems': '50',
+	'NavigationTreeEnableGrouping': true,
+	'NavigationTreeEnableExpansion': true,
+	'NavigationTreeShowTables': true,
+	'NavigationTreeShowViews': true,
+	'NavigationTreeShowFunctions': true,
+	'NavigationTreeShowProcedures': true,
+	'NavigationTreeShowEvents': true,
+	'NavigationTreeDisplayDbFilterMinimum': '30',
+	'NavigationTreeDbSeparator': '_',
+	'NavigationTreeDefaultTabTable': ['structure'],
+	'NavigationTreeDefaultTabTable2': [''],
+	'NavigationTreeTableSeparator': '__',
+	'NavigationTreeTableLevel': '1'});
+});
+if (typeof configScriptLoaded !== "undefined" && configInlineParams) loadInlineConfig();
+</script></div></div></div></div><div class="pma_drop_handler">Déposez des fichiers ici</div><div class="pma_sql_import_status"><h2>SQL upload ( <span class="pma_import_count">0</span> ) <span class="close">x</span><span class="minimize">-</span></h2><div></div></div></div><div id="pma_header"></div><div id="prefs_autoload" class="notice print_ignore" style="display:none">
+    <form action="prefs_manage.php" method="post" class="disableAjax">
+        <input type="hidden" name="token" value="3f5d7654d37342c00ec3823fd11f650c">        <input type="hidden" name="json" value="">
+        <input type="hidden" name="submit_import" value="1">
+        <input type="hidden" name="return_url" value="index.php?token=3f5d7654d37342c00ec3823fd11f650c">
+        Votre navigateur contient une configuration phpMyAdmin pour ce 
+domaine. Voulez-vous l'importer dans la session courante ?        <br>
+        <a href="#yes">Oui</a>
+        / <a href="#no">Non</a>
+    </form>
+</div><div id="floating_menubar" style="margin-left: 243px; left: 0px; position: fixed; top: 0px; width: 100%; z-index: 99;"><div id="serverinfo"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_host item"><a href="http://localhost/phpmyadmin/index.php?token=3f5d7654d37342c00ec3823fd11f650c" class="item">Serveur: localhost:3306</a><span class="separator item">&nbsp;»</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_db item"><a href="http://localhost/phpmyadmin/db_structure.php?db=prestige&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="item">Base de données: prestige</a><span class="separator item">&nbsp;»</span><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_tbl item"><a href="http://localhost/phpmyadmin/sql.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="item">Table: products</a><div class="clearfloat"></div></div><div id="topmenucontainer" class="menucontainer"><ul id="topmenu" class="resizable-menu"><li>
+
+            <a href="http://localhost/phpmyadmin/sql.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c&amp;pos=0" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Afficher" alt="Afficher" class="icon ic_b_browse">&nbsp;Afficher            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/tbl_structure.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Structure" alt="Structure" class="icon ic_b_props">&nbsp;Structure            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/tbl_sql.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="SQL" alt="SQL" class="icon ic_b_sql">&nbsp;SQL            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/tbl_select.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Rechercher" alt="Rechercher" class="icon ic_b_search">&nbsp;Rechercher            </a>
+        </li>
+<li class="active">
+
+            <a href="http://localhost/phpmyadmin/tbl_change.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="tabactive">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Insérer" alt="Insérer" class="icon ic_b_insrow">&nbsp;Insérer            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/tbl_export.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c&amp;single_table=true" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Export" alt="Export" class="icon ic_b_tblexport">&nbsp;Export            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/tbl_import.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Import" alt="Import" class="icon ic_b_tblimport">&nbsp;Import            </a>
+        </li>
+<li>
+
+            <a href="http://localhost/phpmyadmin/server_privileges.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c&amp;checkprivsdb=prestige&amp;checkprivstable=products&amp;viewing_mode=table" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Privilèges" alt="Privilèges" class="icon ic_s_rights">&nbsp;Privilèges            </a>
+        </li>
+
+
+<li class="submenu shown" style=""><a href="#" class="tab nowrap"><img alt="" title="" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" class="icon ic_b_more">plus</a><ul class="notonly"><li>
+
+            <a href="http://localhost/phpmyadmin/tbl_operations.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Opérations" alt="Opérations" class="icon ic_b_tblops">&nbsp;Opérations            </a>
+        </li><li>
+
+            <a href="http://localhost/phpmyadmin/tbl_triggers.php?db=prestige&amp;table=products&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="tab">
+            <img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Déclencheurs" alt="Déclencheurs" class="icon ic_b_triggers">&nbsp;Déclencheurs            </a>
+        </li></ul></li><div class="clearfloat"></div></ul>
+</div>
+</div>
+<span id="page_nav_icons"><span id="lock_page_icon"><img alt="Indique que vous avez fait des modifications à cette page; on vous demandera confirmation avant d'abandonner les modifications" title="Indique que vous avez fait des modifications à cette page; on vous demandera confirmation avant d'abandonner les modifications" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" class="icon ic_s_lock"></span><span id="page_settings_icon" style="display: inline;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Paramètres liés à la page" alt="Paramètres liés à la page" class="icon ic_s_cog"></span><a id="goto_pagetop" href="#"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Cliquez sur la barre pour faire défiler en haut de page" alt="Cliquez sur la barre pour faire défiler en haut de page" class="icon ic_s_top"></a></span><div id="pma_console_container"><div id="pma_console"><div class="toolbar collapsed"><div class="switch_button console_switch"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Console de requête SQL" alt="Console de requête SQL" class="icon ic_console"><span>Console de requêtes SQL</span></div><div class="button clear"><span>Vider</span></div><div class="button history"><span>Historique</span></div><div class="button options"><span>Options</span></div><div class="button debug hide"><span>Déboguer SQL</span></div></div><div class="content" style="height: 92px; margin-bottom: -98px; display: none;"><div class="console_message_container"><div class="message welcome binded"><span><span id="instructions-0" style="display: inline;">Faites Ctrl+Entrée pour exécuter la requête</span><span class="hide" id="instructions-1" style="display: none;">Faites Entrée pour exécuter la requête</span></span></div><div class="message collapsed binded select successed" msgid="326444288997" targetdb="prestige" targettable="products"><div class="action_content"><span class="action collapse">Réduire</span> <span class="action expand">Développer</span> <span class="action requery">Exécuter la requête à nouveau</span> <span class="action edit">Modifier</span> <span class="action explain">Expliquer</span> <span class="action profiling">Profilage</span> <span class="text failed">La requête a échoué</span> <span class="text targetdb">Base de données: <span>prestige</span></span> <span class="text query_time" title="Tue Dec 10 2019 09:52:35 GMT+0000 (heure moyenne de Greenwich)">Daté du: <span>9:52:35</span></span> </div><div class="query highlighted"><span class="cm-keyword">SELECT</span> * <span class="cm-keyword">FROM</span> `products`</div></div></div><div class="query_input"><span class="console_query_input"><div class="CodeMirror cm-s-pma CodeMirror-wrap"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 16px;"><textarea style="position: absolute; padding: 0px; width: 1px; height: 1em; outline: currentcolor none medium;" autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" wrap="off"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true"><div class="CodeMirror-sizer" style="margin-left: 16px; margin-bottom: -12px; border-right-width: 18px; min-height: 21px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines"><div style="position: relative; outline: currentcolor none medium;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"><div class="CodeMirror-cursor" style="left: 0px; top: 0px; height: 21px;">&nbsp;</div></div><div class="CodeMirror-code"><pre class=""><span><span cm-text="">​</span></span></pre></div></div></div></div></div><div style="position: absolute; height: 18px; width: 1px; top: 21px;"></div><div class="CodeMirror-gutters" style="height: 39px;"><div class="CodeMirror-gutter CodeMirror-lint-markers"></div></div></div></div></span></div></div><div class="mid_layer"></div><div class="card ungrouped" id="debug_console"><div class="toolbar"><div class="button order order_asc active"><span>croissant</span></div><div class="button order order_desc"><span>décroissant</span></div><div class="text"><span>Ordre :</span></div><div class="switch_button"><span>Déboguer SQL</span></div><div class="button order_by sort_count"><span>Nombre</span></div><div class="button order_by sort_exec active"><span>Ordre d'exécution</span></div><div class="button order_by sort_time"><span>Temps nécessaire</span></div><div class="text"><span>Trier par :</span></div><div class="button group_queries"><span>Regrouper les requêtes</span></div><div class="button ungroup_queries"><span>Dissocier les groupes</span></div></div><div class="content debug" style="height: 92px;"><div class="message welcome binded">Une erreur s'est produite lors de l'obtention des informations de débogage SQL.</div><div class="debugLog"></div></div><div class="templates"><div class="debug_query action_content"><span class="action collapse">Réduire</span> <span class="action expand">Développer</span> <span class="action dbg_show_trace">Montrer l'itinéraire d'appel</span> <span class="action dbg_hide_trace">Cacher l'itinéraire d'appel</span> <span class="text count hide">Nombre : <span></span></span><span class="text time">Temps nécessaire : <span></span></span></div></div></div><div class="card" id="pma_console_options"><div class="toolbar"><div class="switch_button"><span>Options</span></div><div class="button default"><span>Mettre par défaut</span></div></div><div class="content" style="height: 92px;"><label><input type="checkbox" name="always_expand">Toujours développer les messages</label><br><label><input type="checkbox" name="start_history">Afficher l'historique des requêtes au début</label><br><label><input type="checkbox" name="current_query" checked="checked">Voir la requête de navigation courante</label><br><label><input type="checkbox" name="enter_executes">Exécuter
+ les requêtes avec Entrée et insérer une nouvelle ligne avec Maj + 
+Entrée. Ce choix peut être rendu permanent via les paramètres.</label><br><label><input type="checkbox" name="dark_theme">Passer au thème sombre</label><br></div></div><div class="templates"><div class="query_actions"><span class="action collapse">Réduire</span> <span class="action expand">Développer</span> <span class="action requery">Exécuter la requête à nouveau</span> <span class="action edit">Modifier</span> <span class="action explain">Expliquer</span> <span class="action profiling">Profilage</span> <span class="text failed">La requête a échoué</span> <span class="text targetdb">Base de données: <span></span></span> <span class="text query_time">Daté du: <span></span></span> </div></div></div></div><div id="page_content"><a class="hide" id="update_recent_tables" href="http://localhost/phpmyadmin/index.php?ajax_request=1&amp;recent_table=1&amp;token=3f5d7654d37342c00ec3823fd11f650c"></a><div id="page_settings_modal"><div class="page_settings"><form method="post" action="tbl_change.php?db=prestige&amp;table=products&amp;server=1&amp;target=&amp;token=3f5d7654d37342c00ec3823fd11f650c" class="config-form disableAjax"><input type="hidden" name="tab_hash" value=""><input type="hidden" name="check_page_refresh" id="check_page_refresh" value="">
+<input type="hidden" name="token" value="3f5d7654d37342c00ec3823fd11f650c">
+<input type="hidden" name="submit_save" value="Edit"><ul class="tabs">
+
+                                    <li class="active">
+
+            <a href="#Edit">
+            Mode édition            </a>
+        </li>
+                                <li>
+
+            <a href="#Text_fields">
+            Champs texte            </a>
+        </li>
+            </ul><br clear="right"><div class="tabs_contents"><fieldset class="optbox" id="Edit" style="display: block;"><legend>Mode édition</legend><p>Personnaliser le mode édition.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="ProtectBinary">Protéger les colonnes avec contenu binaire</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ProtectBinary" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Empêche l'édition des colonnes BLOB et BINARY.</small></th><td><select name="ProtectBinary" id="ProtectBinary"><option value="0">non</option><option value="blob" selected="selected">blob</option><option value="noblob">noblob</option><option value="all">all</option></select><a class="restore-default" href="#ProtectBinary" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="ShowFunctionFields">Montrer les fonctions</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowFunctionFields" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>En insertion ou édition, montrer la colonne contenant les fonctions.</small></th><td><span class="checkbox"><input type="checkbox" name="ShowFunctionFields" id="ShowFunctionFields" checked="checked"></span><a class="restore-default" href="#ShowFunctionFields" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="ShowFieldTypesInDataEditView">Montrer les champs de type de données</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ShowFieldTypesInDataEditView" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Définit si les champs des types de données MySQL doivent être affichés en mode modification/insertion.</small></th><td><span class="checkbox"><input type="checkbox" name="ShowFieldTypesInDataEditView" id="ShowFieldTypesInDataEditView" checked="checked"></span><a class="restore-default" href="#ShowFieldTypesInDataEditView" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="InsertRows">Nombre de lignes à insérer</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_InsertRows" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Le nombre de lignes qui peuvent être insérées à la fois.</small></th><td><input type="number" name="InsertRows" id="InsertRows" value="2"><a class="restore-default" href="#InsertRows" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="ForeignKeyDropdownOrder">Ordre dans le menu des clés étrangères</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ForeignKeyDropdownOrder" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Ordre du tri pour les éléments de clé étrangère; <kbd>content</kbd> signifie la donnée référencée, <kbd>id</kbd> représente la valeur de la clé.</small></th><td><textarea cols="40" rows="5" name="ForeignKeyDropdownOrder" id="ForeignKeyDropdownOrder">content-id
+id-content</textarea><a class="restore-default" href="#ForeignKeyDropdownOrder" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="ForeignKeyMaxLimit">Limite pour clé étrangère</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_ForeignKeyMaxLimit" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Un menu déroulant sera utilisé si le nombre de valeurs est inférieur à cette limite.</small></th><td><input type="number" name="ForeignKeyMaxLimit" id="ForeignKeyMaxLimit" value="100"><a class="restore-default" href="#ForeignKeyMaxLimit" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset><fieldset class="optbox" id="Text_fields" style="display: none;"><legend>Champs texte</legend><p>Personnaliser les champs de saisie.</p><table width="100%" cellspacing="0"><tbody><tr><th><label for="CharEditing">Édition des colonnes CHAR</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_CharEditing" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Détermine la méthode d'édition pour les colonnes CHAR et VARCHAR; <kbd>input</kbd> - permet de limiter la taille, <kbd>textarea</kbd> - permet la saisie de sauts de lignes.</small></th><td><select name="CharEditing" id="CharEditing"><option value="input" selected="selected">input</option><option value="textarea">textarea</option></select><a class="restore-default" href="#CharEditing" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="MinSizeForInputField">Taille minimum des champs de saisie</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_MinSizeForInputField" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Définit la taille minimum des champs de saisie générés pour les colonnes CHAR et VARCHAR.</small></th><td><input type="number" name="MinSizeForInputField" id="MinSizeForInputField" value="4"><a class="restore-default" href="#MinSizeForInputField" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="MaxSizeForInputField">Taille maximum pour les champs de saisie</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_MaxSizeForInputField" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Définit la taille maximum des champs de saisie générés pour les colonnes CHAR et VARCHAR.</small></th><td><input type="number" name="MaxSizeForInputField" id="MaxSizeForInputField" value="60"><a class="restore-default" href="#MaxSizeForInputField" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="CharTextareaCols">Taille horizontale pour un textarea contenant un CHAR</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_CharTextareaCols" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Nombre de colonnes pour les textareas CHAR/VARCHAR.</small></th><td><input type="number" name="CharTextareaCols" id="CharTextareaCols" value="40"><a class="restore-default" href="#CharTextareaCols" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="CharTextareaRows">Taille verticale pour un textarea contenant un CHAR</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_CharTextareaRows" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Nombre de lignes pour les textareas CHAR/VARCHAR.</small></th><td><input type="number" name="CharTextareaRows" id="CharTextareaRows" value="2"><a class="restore-default" href="#CharTextareaRows" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="TextareaCols">Taille horizontale pour une zone de texte</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_TextareaCols" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Taille des zones de texte (colonnes) en mode édition, cette valeur sera augmentée pour les zones SQL (*2).</small></th><td><input type="number" name="TextareaCols" id="TextareaCols" value="40"><a class="restore-default" href="#TextareaCols" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="TextareaRows">Taille verticale pour une zone de texte</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_TextareaRows" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Taille des zones de texte (lignes) en mode édition, cette valeur sera augmentée pour les zones SQL (*2).</small></th><td><input type="number" name="TextareaRows" id="TextareaRows" value="15"><a class="restore-default" href="#TextareaRows" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr><tr><th><label for="LongtextDoubleTextarea">Zone de texte plus grande pour LONGTEXT</label><span class="doc"><a href="http://localhost/phpmyadmin/doc/html/config.html#cfg_LongtextDoubleTextarea" target="documentation"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Documentation" alt="Documentation" class="icon ic_b_help"></a>
+</span><small>Doubler la taille de la zone de texte pour les colonnes LONGTEXT.</small></th><td><span class="checkbox"><input type="checkbox" name="LongtextDoubleTextarea" id="LongtextDoubleTextarea" checked="checked"></span><a class="restore-default" href="#LongtextDoubleTextarea" title="Ramener la valeur par défaut" style="display: inline-block; opacity: 0.25;"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_reload" style="display: none;"></a></td></tr></tbody></table></fieldset></div>
+</form>
+<script type="text/javascript">
+if (typeof configInlineParams === "undefined" || !Array.isArray(configInlineParams)) configInlineParams = [];
+configInlineParams.push(function() {
+validateField('InsertRows', 'PMA_validatePositiveNumber', true);
+validateField('ForeignKeyMaxLimit', 'PMA_validatePositiveNumber', true);
+validateField('CharTextareaCols', 'PMA_validatePositiveNumber', true);
+validateField('CharTextareaRows', 'PMA_validatePositiveNumber', true);
+validateField('TextareaCols', 'PMA_validatePositiveNumber', true);
+validateField('TextareaRows', 'PMA_validatePositiveNumber', true);
+$.extend(PMA_messages, {
+	'error_nan_p': 'Nombre non positif !',
+	'error_nan_nneg': 'Ce n\'est pas un nombre non négatif !',
+	'error_incorrect_port': 'Numéro de port invalide !',
+	'error_invalid_value': 'Valeur incorrecte !',
+	'error_value_lte': 'La valeur doit être égale ou plus petite que %s !'});
+$.extend(defaultValues, {
+	'ProtectBinary': ['blob'],
+	'ShowFunctionFields': true,
+	'ShowFieldTypesInDataEditView': true,
+	'InsertRows': '2',
+	'ForeignKeyDropdownOrder': 'content-id\nid-content',
+	'ForeignKeyMaxLimit': '100',
+	'CharEditing': ['input'],
+	'MinSizeForInputField': '4',
+	'MaxSizeForInputField': '60',
+	'CharTextareaCols': '40',
+	'CharTextareaRows': '2',
+	'TextareaCols': '40',
+	'TextareaRows': '15',
+	'LongtextDoubleTextarea': true});
+});
+if (typeof configScriptLoaded !== "undefined" && configInlineParams) loadInlineConfig();
+</script></div></div><form id="insertForm" class="lock-page " method="post" action="tbl_replace.php" name="insertForm" enctype="multipart/form-data" novalidate="novalidate"><input type="hidden" name="db" value="prestige"><input type="hidden" name="table" value="products"><input type="hidden" name="goto" value="tbl_sql.php"><input type="hidden" name="err_url" value="tbl_sql.php?db=prestige&amp;amp;table=products&amp;amp;token=3f5d7654d37342c00ec3823fd11f650c"><input type="hidden" name="sql_query" value=""><input type="hidden" name="token" value="3f5d7654d37342c00ec3823fd11f650c"><table class="insertRowTable topmargin"><thead><tr><th>Colonne</th><th><a href="http://localhost/phpmyadmin/tbl_change.php?db=prestige&amp;table=products&amp;server=1&amp;ShowFieldTypesInDataEditView=0&amp;ShowFunctionFields=1&amp;goto=sql.php&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Cacher">Type</a></th><th><a href="http://localhost/phpmyadmin/tbl_change.php?db=prestige&amp;table=products&amp;server=1&amp;ShowFunctionFields=0&amp;ShowFieldTypesInDataEditView=1&amp;goto=sql.php&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Cacher">Fonction</a></th><th>Null</th><th>Valeur</th></tr></thead> <tfoot><tr><th colspan="5" class="tblFooters right"><input type="submit" value="Exécuter"></th></tr></tfoot><tbody><tr class="noclick odd"><td class="center">id<input type="hidden" name="fields_name[multi_edit][0][b80bb7740288fda1f201890375a60c8f]" value="id"></td><td class="center nowrap"><span class="column_type" dir="ltr">bigint(20) unsigned</span></td><td>
+<select name="funcs[multi_edit][0][b80bb7740288fda1f201890375a60c8f]" onchange="return verificationsAfterFieldChange('b80bb7740288fda1f201890375a60c8f', '0','bigint(20) unsigned')" tabindex="3001" id="field_1_1"><option selected="selected"></option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_LENGTH</option>
+<option>BIT_COUNT</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG2</option>
+<option>LOG10</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TIME_TO_SEC</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+<option value="" disabled="disabled">--------</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DATE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LAST_DAY</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>NOW</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SEC_TO_TIME</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option>YEAR</option>
+
+</select>
+</td>
+<td></td>
+<td data-type="bigint" data-decimals="20">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][0][b80bb7740288fda1f201890375a60c8f]" value="1" size="20" min="0" max="18446744073709551615" data-type="INT" class="textfield valid" onchange="return verificationsAfterFieldChange('b80bb7740288fda1f201890375a60c8f', '0','bigint(20) unsigned')" tabindex="1" id="field_1_3" aria-invalid="false"><input type="hidden" name="auto_increment[multi_edit][0][b80bb7740288fda1f201890375a60c8f]" value="1"></td></tr><tr class="noclick even"><td class="center">name<input type="hidden" name="fields_name[multi_edit][0][b068931cc450442b63f5b3d276ea4297]" value="name"></td><td class="center nowrap"><span class="column_type" dir="ltr">varchar(255)</span></td><td>
+<select name="funcs[multi_edit][0][b068931cc450442b63f5b3d276ea4297]" onchange="return verificationsAfterFieldChange('b068931cc450442b63f5b3d276ea4297', '0','varchar(255)')" tabindex="3002" id="field_2_1"><option selected="selected"></option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option value="" disabled="disabled">--------</option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_COUNT</option>
+<option>BIT_LENGTH</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>DATE</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LAST_DAY</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG10</option>
+<option>LOG2</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>NOW</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SEC_TO_TIME</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>SYSDATE</option>
+<option>TAN</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TIME_TO_SEC</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEAR</option>
+<option>YEARWEEK</option>
+
+</select>
+</td>
+<td></td>
+<td data-type="varchar" data-decimals="255">
+<span class="default_value hide"></span>
+
+
+<textarea name="fields[multi_edit][0][b068931cc450442b63f5b3d276ea4297]" class="char valid" data-maxlength="255" rows="2" cols="40" dir="ltr" id="field_2_3" onchange="return verificationsAfterFieldChange('b068931cc450442b63f5b3d276ea4297', '0','varchar(255)')" tabindex="2" data-type="CHAR" aria-invalid="false">Pain Baguette</textarea></td></tr><tr class="noclick odd"><td class="center">description<input type="hidden" name="fields_name[multi_edit][0][67daf92c833c41c95db874e18fcb2786]" value="description"></td><td class="center nowrap"><span class="column_type" dir="ltr">text</span></td><td>
+<select name="funcs[multi_edit][0][67daf92c833c41c95db874e18fcb2786]" onchange="return verificationsAfterFieldChange('67daf92c833c41c95db874e18fcb2786', '0','text')" tabindex="3003" id="field_3_1"><option selected="selected"></option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option value="" disabled="disabled">--------</option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_COUNT</option>
+<option>BIT_LENGTH</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>DATE</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LAST_DAY</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG10</option>
+<option>LOG2</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>NOW</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SEC_TO_TIME</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>SYSDATE</option>
+<option>TAN</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TIME_TO_SEC</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEAR</option>
+<option>YEARWEEK</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][0][67daf92c833c41c95db874e18fcb2786]" value="on">
+<input type="checkbox" class="checkbox_null" tabindex="6003" name="fields_null[multi_edit][0][67daf92c833c41c95db874e18fcb2786]" id="field_3_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][0][67daf92c833c41c95db874e18fcb2786]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][0][67daf92c833c41c95db874e18fcb2786]" value="67daf92c833c41c95db874e18fcb2786"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][0][67daf92c833c41c95db874e18fcb2786]" value="[multi_edit][0]"></td>
+<td data-type="text" data-decimals="0">
+<span class="default_value hide"></span>
+<textarea name="fields[multi_edit][0][67daf92c833c41c95db874e18fcb2786]" class="valid" rows="15" cols="40" dir="ltr" id="field_3_3" onchange="return verificationsAfterFieldChange('67daf92c833c41c95db874e18fcb2786', '0','text')" tabindex="3" data-type="CHAR" aria-invalid="false">A base de farine</textarea>
+</td></tr><tr class="noclick even"><td class="center">price<input type="hidden" name="fields_name[multi_edit][0][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="price"></td><td class="center nowrap"><span class="column_type" dir="ltr">int(10) unsigned</span></td><td>
+<select name="funcs[multi_edit][0][78a5eb43deef9a7b5b9ce157b9d52ac4]" onchange="return verificationsAfterFieldChange('78a5eb43deef9a7b5b9ce157b9d52ac4', '0','int(10) unsigned')" tabindex="3004" id="field_4_1"><option selected="selected"></option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_LENGTH</option>
+<option>BIT_COUNT</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG2</option>
+<option>LOG10</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TIME_TO_SEC</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+<option value="" disabled="disabled">--------</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DATE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LAST_DAY</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>NOW</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SEC_TO_TIME</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option>YEAR</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][0][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="on">
+<input type="checkbox" class="checkbox_null" tabindex="6004" name="fields_null[multi_edit][0][78a5eb43deef9a7b5b9ce157b9d52ac4]" id="field_4_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][0][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][0][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="78a5eb43deef9a7b5b9ce157b9d52ac4"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][0][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="[multi_edit][0]"></td>
+<td data-type="int" data-decimals="10">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][0][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="150f" size="10" min="0" max="4294967295" data-type="INT" class="textfield error" onchange="return verificationsAfterFieldChange('78a5eb43deef9a7b5b9ce157b9d52ac4', '0','int(10) unsigned')" tabindex="4" id="field_4_3" aria-invalid="true"><label id="field_4_3-error" class="error" for="field_4_3">Veuillez saisir un nombre valide</label></td></tr><tr class="noclick odd"><td class="center">created_at<input type="hidden" name="fields_name[multi_edit][0][fde81f1177b1541755b672c9dc97315a]" value="created_at"></td><td class="center nowrap"><span class="column_type" dir="ltr">timestamp</span></td><td>
+<select name="funcs[multi_edit][0][fde81f1177b1541755b672c9dc97315a]" onchange="return verificationsAfterFieldChange('fde81f1177b1541755b672c9dc97315a', '0','timestamp')" tabindex="3005" id="field_5_1"><option selected="selected"></option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>DATE</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>LAST_DAY</option>
+<option>NOW</option>
+<option>SEC_TO_TIME</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>YEAR</option>
+<option value="" disabled="disabled">--------</option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIN</option>
+<option>BIT_COUNT</option>
+<option>BIT_LENGTH</option>
+<option>CEILING</option>
+<option>CHAR</option>
+<option>CHAR_LENGTH</option>
+<option>COMPRESS</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DAYNAME</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HEX</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET6_NTOA</option>
+<option>INET_ATON</option>
+<option>INET_NTOA</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOAD_FILE</option>
+<option>LOG</option>
+<option>LOG10</option>
+<option>LOG2</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>MONTHNAME</option>
+<option>OCT</option>
+<option>OLD_PASSWORD</option>
+<option>ORD</option>
+<option>PASSWORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>QUOTE</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>REVERSE</option>
+<option>ROUND</option>
+<option>RTRIM</option>
+<option>SECOND</option>
+<option>SHA1</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TIME_TO_SEC</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNHEX</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UUID</option>
+<option>UUID_SHORT</option>
+<option>VERSION</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][0][fde81f1177b1541755b672c9dc97315a]">
+<input type="checkbox" class="checkbox_null" tabindex="6005" name="fields_null[multi_edit][0][fde81f1177b1541755b672c9dc97315a]" id="field_5_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][0][fde81f1177b1541755b672c9dc97315a]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][0][fde81f1177b1541755b672c9dc97315a]" value="fde81f1177b1541755b672c9dc97315a"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][0][fde81f1177b1541755b672c9dc97315a]" value="[multi_edit][0]"></td>
+<td data-type="timestamp" data-decimals="0">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][0][fde81f1177b1541755b672c9dc97315a]" value="2019-12-10 05:12:10" size="19" data-type="DATE" class="textfield datetimefield hasDatepicker" onchange="return verificationsAfterFieldChange('fde81f1177b1541755b672c9dc97315a', '0','timestamp')" tabindex="5" id="field_5_3"><img class="ui-datepicker-trigger" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/b_calendar.png" alt="..." title="..."><input type="hidden" name="fields_type[multi_edit][0][fde81f1177b1541755b672c9dc97315a]" value="timestamp"></td></tr><tr class="noclick even"><td class="center">updated_at<input type="hidden" name="fields_name[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]" value="updated_at"></td><td class="center nowrap"><span class="column_type" dir="ltr">timestamp</span></td><td>
+<select name="funcs[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]" onchange="return verificationsAfterFieldChange('afd1a1a8e69e4b32a11a645da8280f8a', '0','timestamp')" tabindex="3006" id="field_6_1"><option selected="selected"></option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>DATE</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>LAST_DAY</option>
+<option>NOW</option>
+<option>SEC_TO_TIME</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>YEAR</option>
+<option value="" disabled="disabled">--------</option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIN</option>
+<option>BIT_COUNT</option>
+<option>BIT_LENGTH</option>
+<option>CEILING</option>
+<option>CHAR</option>
+<option>CHAR_LENGTH</option>
+<option>COMPRESS</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DAYNAME</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HEX</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET6_NTOA</option>
+<option>INET_ATON</option>
+<option>INET_NTOA</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOAD_FILE</option>
+<option>LOG</option>
+<option>LOG10</option>
+<option>LOG2</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>MONTHNAME</option>
+<option>OCT</option>
+<option>OLD_PASSWORD</option>
+<option>ORD</option>
+<option>PASSWORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>QUOTE</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>REVERSE</option>
+<option>ROUND</option>
+<option>RTRIM</option>
+<option>SECOND</option>
+<option>SHA1</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TIME_TO_SEC</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNHEX</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UUID</option>
+<option>UUID_SHORT</option>
+<option>VERSION</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]">
+<input type="checkbox" class="checkbox_null" tabindex="6006" name="fields_null[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]" id="field_6_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]" value="afd1a1a8e69e4b32a11a645da8280f8a"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]" value="[multi_edit][0]"></td>
+<td data-type="timestamp" data-decimals="0">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]" value="2019-12-10 04:11:08" size="19" data-type="DATE" class="textfield datetimefield hasDatepicker" onchange="return verificationsAfterFieldChange('afd1a1a8e69e4b32a11a645da8280f8a', '0','timestamp')" tabindex="6" id="field_6_3"><img class="ui-datepicker-trigger" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/b_calendar.png" alt="..." title="..."><input type="hidden" name="fields_type[multi_edit][0][afd1a1a8e69e4b32a11a645da8280f8a]" value="timestamp"></td></tr><tr class="noclick odd"><td class="center">category_id<input type="hidden" name="fields_name[multi_edit][0][b583a6293fe1d5750ba17314e10419cc]" value="category_id"></td><td class="center nowrap"><span class="column_type" dir="ltr">int(10) unsigned</span></td><td>
+<select name="funcs[multi_edit][0][b583a6293fe1d5750ba17314e10419cc]" onchange="return verificationsAfterFieldChange('b583a6293fe1d5750ba17314e10419cc', '0','int(10) unsigned')" tabindex="3007" id="field_7_1"><option selected="selected"></option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_LENGTH</option>
+<option>BIT_COUNT</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG2</option>
+<option>LOG10</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TIME_TO_SEC</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+<option value="" disabled="disabled">--------</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DATE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LAST_DAY</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>NOW</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SEC_TO_TIME</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option>YEAR</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][0][b583a6293fe1d5750ba17314e10419cc]" value="on">
+<input type="checkbox" class="checkbox_null" tabindex="6007" name="fields_null[multi_edit][0][b583a6293fe1d5750ba17314e10419cc]" checked="checked" id="field_7_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][0][b583a6293fe1d5750ba17314e10419cc]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][0][b583a6293fe1d5750ba17314e10419cc]" value="b583a6293fe1d5750ba17314e10419cc"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][0][b583a6293fe1d5750ba17314e10419cc]" value="[multi_edit][0]"></td>
+<td data-type="int" data-decimals="10">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][0][b583a6293fe1d5750ba17314e10419cc]" size="10" min="0" max="4294967295" data-type="INT" class="textfield" onchange="return verificationsAfterFieldChange('b583a6293fe1d5750ba17314e10419cc', '0','int(10) unsigned')" tabindex="7" id="field_7_3">  </td></tr></tbody></table><br><div class="clearfloat"></div><input type="checkbox" checked="checked" name="insert_ignore_1" id="insert_ignore_1"><label for="insert_ignore_1">Ignorer</label><br>
+<table class="insertRowTable topmargin"><thead><tr><th>Colonne</th><th><a href="http://localhost/phpmyadmin/tbl_change.php?db=prestige&amp;table=products&amp;server=1&amp;ShowFieldTypesInDataEditView=0&amp;ShowFunctionFields=1&amp;goto=sql.php&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Cacher">Type</a></th><th><a href="http://localhost/phpmyadmin/tbl_change.php?db=prestige&amp;table=products&amp;server=1&amp;ShowFunctionFields=0&amp;ShowFieldTypesInDataEditView=1&amp;goto=sql.php&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Cacher">Fonction</a></th><th>Null</th><th>Valeur</th></tr></thead> <tfoot><tr><th colspan="5" class="tblFooters right"><input type="submit" value="Exécuter"></th></tr></tfoot><tbody><tr class="noclick odd"><td class="center">id<input type="hidden" name="fields_name[multi_edit][1][b80bb7740288fda1f201890375a60c8f]" value="id"></td><td class="center nowrap"><span class="column_type" dir="ltr">bigint(20) unsigned</span></td><td>
+<select name="funcs[multi_edit][1][b80bb7740288fda1f201890375a60c8f]" onchange="return verificationsAfterFieldChange('b80bb7740288fda1f201890375a60c8f', '1','bigint(20) unsigned')" tabindex="3008" id="field_8_1"><option selected="selected"></option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_LENGTH</option>
+<option>BIT_COUNT</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG2</option>
+<option>LOG10</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TIME_TO_SEC</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+<option value="" disabled="disabled">--------</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DATE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LAST_DAY</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>NOW</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SEC_TO_TIME</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option>YEAR</option>
+
+</select>
+</td>
+<td></td>
+<td data-type="bigint" data-decimals="20">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][1][b80bb7740288fda1f201890375a60c8f]" size="20" min="0" max="18446744073709551615" data-type="INT" class="textfield" onchange="return verificationsAfterFieldChange('b80bb7740288fda1f201890375a60c8f', '1','bigint(20) unsigned')" tabindex="8" id="field_8_3"><input type="hidden" name="auto_increment[multi_edit][1][b80bb7740288fda1f201890375a60c8f]" value="1"></td></tr><tr class="noclick even"><td class="center">name<input type="hidden" name="fields_name[multi_edit][1][b068931cc450442b63f5b3d276ea4297]" value="name"></td><td class="center nowrap"><span class="column_type" dir="ltr">varchar(255)</span></td><td>
+<select name="funcs[multi_edit][1][b068931cc450442b63f5b3d276ea4297]" onchange="return verificationsAfterFieldChange('b068931cc450442b63f5b3d276ea4297', '1','varchar(255)')" tabindex="3009" id="field_9_1"><option selected="selected"></option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option value="" disabled="disabled">--------</option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_COUNT</option>
+<option>BIT_LENGTH</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>DATE</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LAST_DAY</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG10</option>
+<option>LOG2</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>NOW</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SEC_TO_TIME</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>SYSDATE</option>
+<option>TAN</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TIME_TO_SEC</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEAR</option>
+<option>YEARWEEK</option>
+
+</select>
+</td>
+<td></td>
+<td data-type="varchar" data-decimals="255">
+<span class="default_value hide"></span>
+
+
+<textarea name="fields[multi_edit][1][b068931cc450442b63f5b3d276ea4297]" class="char" data-maxlength="255" rows="2" cols="40" dir="ltr" id="field_9_3" onchange="return verificationsAfterFieldChange('b068931cc450442b63f5b3d276ea4297', '1','varchar(255)')" tabindex="9" data-type="CHAR"></textarea></td></tr><tr class="noclick odd"><td class="center">description<input type="hidden" name="fields_name[multi_edit][1][67daf92c833c41c95db874e18fcb2786]" value="description"></td><td class="center nowrap"><span class="column_type" dir="ltr">text</span></td><td>
+<select name="funcs[multi_edit][1][67daf92c833c41c95db874e18fcb2786]" onchange="return verificationsAfterFieldChange('67daf92c833c41c95db874e18fcb2786', '1','text')" tabindex="3010" id="field_10_1"><option selected="selected"></option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option value="" disabled="disabled">--------</option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_COUNT</option>
+<option>BIT_LENGTH</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>DATE</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LAST_DAY</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG10</option>
+<option>LOG2</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>NOW</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SEC_TO_TIME</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>SYSDATE</option>
+<option>TAN</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TIME_TO_SEC</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEAR</option>
+<option>YEARWEEK</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][1][67daf92c833c41c95db874e18fcb2786]" value="on">
+<input type="checkbox" class="checkbox_null" tabindex="6010" name="fields_null[multi_edit][1][67daf92c833c41c95db874e18fcb2786]" checked="checked" id="field_10_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][1][67daf92c833c41c95db874e18fcb2786]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][1][67daf92c833c41c95db874e18fcb2786]" value="67daf92c833c41c95db874e18fcb2786"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][1][67daf92c833c41c95db874e18fcb2786]" value="[multi_edit][1]"></td>
+<td data-type="text" data-decimals="0">
+<span class="default_value hide"></span>
+<textarea name="fields[multi_edit][1][67daf92c833c41c95db874e18fcb2786]" class="" rows="15" cols="40" dir="ltr" id="field_10_3" onchange="return verificationsAfterFieldChange('67daf92c833c41c95db874e18fcb2786', '1','text')" tabindex="10" data-type="CHAR"></textarea>
+</td></tr><tr class="noclick even"><td class="center">price<input type="hidden" name="fields_name[multi_edit][1][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="price"></td><td class="center nowrap"><span class="column_type" dir="ltr">int(10) unsigned</span></td><td>
+<select name="funcs[multi_edit][1][78a5eb43deef9a7b5b9ce157b9d52ac4]" onchange="return verificationsAfterFieldChange('78a5eb43deef9a7b5b9ce157b9d52ac4', '1','int(10) unsigned')" tabindex="3011" id="field_11_1"><option selected="selected"></option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_LENGTH</option>
+<option>BIT_COUNT</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG2</option>
+<option>LOG10</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TIME_TO_SEC</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+<option value="" disabled="disabled">--------</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DATE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LAST_DAY</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>NOW</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SEC_TO_TIME</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option>YEAR</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][1][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="on">
+<input type="checkbox" class="checkbox_null" tabindex="6011" name="fields_null[multi_edit][1][78a5eb43deef9a7b5b9ce157b9d52ac4]" checked="checked" id="field_11_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][1][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][1][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="78a5eb43deef9a7b5b9ce157b9d52ac4"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][1][78a5eb43deef9a7b5b9ce157b9d52ac4]" value="[multi_edit][1]"></td>
+<td data-type="int" data-decimals="10">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][1][78a5eb43deef9a7b5b9ce157b9d52ac4]" size="10" min="0" max="4294967295" data-type="INT" class="textfield" onchange="return verificationsAfterFieldChange('78a5eb43deef9a7b5b9ce157b9d52ac4', '1','int(10) unsigned')" tabindex="11" id="field_11_3"></td></tr><tr class="noclick odd"><td class="center">created_at<input type="hidden" name="fields_name[multi_edit][1][fde81f1177b1541755b672c9dc97315a]" value="created_at"></td><td class="center nowrap"><span class="column_type" dir="ltr">timestamp</span></td><td>
+<select name="funcs[multi_edit][1][fde81f1177b1541755b672c9dc97315a]" onchange="return verificationsAfterFieldChange('fde81f1177b1541755b672c9dc97315a', '1','timestamp')" tabindex="3012" id="field_12_1"><option selected="selected"></option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>DATE</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>LAST_DAY</option>
+<option>NOW</option>
+<option>SEC_TO_TIME</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>YEAR</option>
+<option value="" disabled="disabled">--------</option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIN</option>
+<option>BIT_COUNT</option>
+<option>BIT_LENGTH</option>
+<option>CEILING</option>
+<option>CHAR</option>
+<option>CHAR_LENGTH</option>
+<option>COMPRESS</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DAYNAME</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HEX</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET6_NTOA</option>
+<option>INET_ATON</option>
+<option>INET_NTOA</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOAD_FILE</option>
+<option>LOG</option>
+<option>LOG10</option>
+<option>LOG2</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>MONTHNAME</option>
+<option>OCT</option>
+<option>OLD_PASSWORD</option>
+<option>ORD</option>
+<option>PASSWORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>QUOTE</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>REVERSE</option>
+<option>ROUND</option>
+<option>RTRIM</option>
+<option>SECOND</option>
+<option>SHA1</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TIME_TO_SEC</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNHEX</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UUID</option>
+<option>UUID_SHORT</option>
+<option>VERSION</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][1][fde81f1177b1541755b672c9dc97315a]">
+<input type="checkbox" class="checkbox_null" tabindex="6012" name="fields_null[multi_edit][1][fde81f1177b1541755b672c9dc97315a]" checked="checked" id="field_12_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][1][fde81f1177b1541755b672c9dc97315a]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][1][fde81f1177b1541755b672c9dc97315a]" value="fde81f1177b1541755b672c9dc97315a"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][1][fde81f1177b1541755b672c9dc97315a]" value="[multi_edit][1]"></td>
+<td data-type="timestamp" data-decimals="0">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][1][fde81f1177b1541755b672c9dc97315a]" size="19" data-type="DATE" class="textfield datetimefield hasDatepicker" onchange="return verificationsAfterFieldChange('fde81f1177b1541755b672c9dc97315a', '1','timestamp')" tabindex="12" id="field_12_3"><img class="ui-datepicker-trigger" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/b_calendar.png" alt="..." title="..."><input type="hidden" name="fields_type[multi_edit][1][fde81f1177b1541755b672c9dc97315a]" value="timestamp"></td></tr><tr class="noclick even"><td class="center">updated_at<input type="hidden" name="fields_name[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]" value="updated_at"></td><td class="center nowrap"><span class="column_type" dir="ltr">timestamp</span></td><td>
+<select name="funcs[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]" onchange="return verificationsAfterFieldChange('afd1a1a8e69e4b32a11a645da8280f8a', '1','timestamp')" tabindex="3013" id="field_13_1"><option selected="selected"></option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>DATE</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>LAST_DAY</option>
+<option>NOW</option>
+<option>SEC_TO_TIME</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>YEAR</option>
+<option value="" disabled="disabled">--------</option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIN</option>
+<option>BIT_COUNT</option>
+<option>BIT_LENGTH</option>
+<option>CEILING</option>
+<option>CHAR</option>
+<option>CHAR_LENGTH</option>
+<option>COMPRESS</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DAYNAME</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HEX</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET6_NTOA</option>
+<option>INET_ATON</option>
+<option>INET_NTOA</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOAD_FILE</option>
+<option>LOG</option>
+<option>LOG10</option>
+<option>LOG2</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>MONTHNAME</option>
+<option>OCT</option>
+<option>OLD_PASSWORD</option>
+<option>ORD</option>
+<option>PASSWORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>QUOTE</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>REVERSE</option>
+<option>ROUND</option>
+<option>RTRIM</option>
+<option>SECOND</option>
+<option>SHA1</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TIME_TO_SEC</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNHEX</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UUID</option>
+<option>UUID_SHORT</option>
+<option>VERSION</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]">
+<input type="checkbox" class="checkbox_null" tabindex="6013" name="fields_null[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]" checked="checked" id="field_13_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]" value="afd1a1a8e69e4b32a11a645da8280f8a"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]" value="[multi_edit][1]"></td>
+<td data-type="timestamp" data-decimals="0">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]" size="19" data-type="DATE" class="textfield datetimefield hasDatepicker" onchange="return verificationsAfterFieldChange('afd1a1a8e69e4b32a11a645da8280f8a', '1','timestamp')" tabindex="13" id="field_13_3"><img class="ui-datepicker-trigger" src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/b_calendar.png" alt="..." title="..."><input type="hidden" name="fields_type[multi_edit][1][afd1a1a8e69e4b32a11a645da8280f8a]" value="timestamp"></td></tr><tr class="noclick odd"><td class="center">category_id<input type="hidden" name="fields_name[multi_edit][1][b583a6293fe1d5750ba17314e10419cc]" value="category_id"></td><td class="center nowrap"><span class="column_type" dir="ltr">int(10) unsigned</span></td><td>
+<select name="funcs[multi_edit][1][b583a6293fe1d5750ba17314e10419cc]" onchange="return verificationsAfterFieldChange('b583a6293fe1d5750ba17314e10419cc', '1','int(10) unsigned')" tabindex="3014" id="field_14_1"><option selected="selected"></option>
+<option>ABS</option>
+<option>ACOS</option>
+<option>ASCII</option>
+<option>ASIN</option>
+<option>ATAN</option>
+<option>BIT_LENGTH</option>
+<option>BIT_COUNT</option>
+<option>CEILING</option>
+<option>CHAR_LENGTH</option>
+<option>CONNECTION_ID</option>
+<option>COS</option>
+<option>COT</option>
+<option>CRC32</option>
+<option>DAYOFMONTH</option>
+<option>DAYOFWEEK</option>
+<option>DAYOFYEAR</option>
+<option>DEGREES</option>
+<option>EXP</option>
+<option>FLOOR</option>
+<option>HOUR</option>
+<option>INET6_ATON</option>
+<option>INET_ATON</option>
+<option>LENGTH</option>
+<option>LN</option>
+<option>LOG</option>
+<option>LOG2</option>
+<option>LOG10</option>
+<option>MICROSECOND</option>
+<option>MINUTE</option>
+<option>MONTH</option>
+<option>OCT</option>
+<option>ORD</option>
+<option>PI</option>
+<option>QUARTER</option>
+<option>RADIANS</option>
+<option>RAND</option>
+<option>ROUND</option>
+<option>SECOND</option>
+<option>SIGN</option>
+<option>SIN</option>
+<option>SQRT</option>
+<option>TAN</option>
+<option>TO_DAYS</option>
+<option>TO_SECONDS</option>
+<option>TIME_TO_SEC</option>
+<option>UNCOMPRESSED_LENGTH</option>
+<option>UNIX_TIMESTAMP</option>
+<option>UUID_SHORT</option>
+<option>WEEK</option>
+<option>WEEKDAY</option>
+<option>WEEKOFYEAR</option>
+<option>YEARWEEK</option>
+<option value="" disabled="disabled">--------</option>
+<option>AES_DECRYPT</option>
+<option>AES_ENCRYPT</option>
+<option>BIN</option>
+<option>CHAR</option>
+<option>COMPRESS</option>
+<option>CURRENT_DATE</option>
+<option>CURRENT_TIME</option>
+<option>CURRENT_USER</option>
+<option>DATABASE</option>
+<option>DATE</option>
+<option>DAYNAME</option>
+<option>DES_DECRYPT</option>
+<option>DES_ENCRYPT</option>
+<option>ENCRYPT</option>
+<option>FROM_DAYS</option>
+<option>FROM_UNIXTIME</option>
+<option>HEX</option>
+<option>INET6_NTOA</option>
+<option>INET_NTOA</option>
+<option>LAST_DAY</option>
+<option>LOAD_FILE</option>
+<option>LOWER</option>
+<option>LTRIM</option>
+<option>MD5</option>
+<option>MONTHNAME</option>
+<option>NOW</option>
+<option>OLD_PASSWORD</option>
+<option>PASSWORD</option>
+<option>QUOTE</option>
+<option>REVERSE</option>
+<option>RTRIM</option>
+<option>SEC_TO_TIME</option>
+<option>SHA1</option>
+<option>SOUNDEX</option>
+<option>SPACE</option>
+<option>SYSDATE</option>
+<option>TIME</option>
+<option>TIMESTAMP</option>
+<option>TRIM</option>
+<option>UNCOMPRESS</option>
+<option>UNHEX</option>
+<option>UPPER</option>
+<option>USER</option>
+<option>UTC_DATE</option>
+<option>UTC_TIME</option>
+<option>UTC_TIMESTAMP</option>
+<option>UUID</option>
+<option>VERSION</option>
+<option>YEAR</option>
+
+</select>
+</td>
+<td>
+<input type="hidden" name="fields_null_prev[multi_edit][1][b583a6293fe1d5750ba17314e10419cc]" value="on">
+<input type="checkbox" class="checkbox_null" tabindex="6014" name="fields_null[multi_edit][1][b583a6293fe1d5750ba17314e10419cc]" checked="checked" id="field_14_2"><input type="hidden" class="nullify_code" name="nullify_code[multi_edit][1][b583a6293fe1d5750ba17314e10419cc]" value="5"><input type="hidden" class="hashed_field" name="hashed_field[multi_edit][1][b583a6293fe1d5750ba17314e10419cc]" value="b583a6293fe1d5750ba17314e10419cc"><input type="hidden" class="multi_edit" name="multi_edit[multi_edit][1][b583a6293fe1d5750ba17314e10419cc]" value="[multi_edit][1]"></td>
+<td data-type="int" data-decimals="10">
+<span class="default_value hide"></span>
+<input type="text" name="fields[multi_edit][1][b583a6293fe1d5750ba17314e10419cc]" size="10" min="0" max="4294967295" data-type="INT" class="textfield" onchange="return verificationsAfterFieldChange('b583a6293fe1d5750ba17314e10419cc', '1','int(10) unsigned')" tabindex="14" id="field_14_3">  </td></tr></tbody></table><br><div class="clearfloat"></div><fieldset id="actions_panel"><table cellspacing="0" cellpadding="5"><tbody><tr><td class="nowrap vmiddle"><select name="submit_type" class="control_at_footer" tabindex="15"><option value="insert" selected="selected">Sauvegarder une nouvelle ligne</option><option value="insertignore">Sauvegarder une nouvelle ligne en ignorant les erreurs</option><option value="showinsert">Afficher l'énoncé d'insertion</option></select>
+</td><td class="vmiddle">&nbsp;&nbsp;&nbsp;<strong>et ensuite</strong>&nbsp;&nbsp;&nbsp;</td><td class="nowrap vmiddle"><select name="after_insert" class="control_at_footer"><option value="back" selected="selected">Retourner à la page précédente</option><option value="new_insert">Insérer une nouvelle ligne</option></select></td></tr><tr><td><span class="pma_hint"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_b_help"><span class="hide">Utilisez la tabulation pour aller d'une valeur à l'autre, ou CTRL+flèches pour aller n'importe où.</span></span></td><td colspan="3" class="right vmiddle"><input type="submit" class="control_at_footer" value="Exécuter" tabindex="20" id="buttonYes"><input type="button" class="preview_sql" value="Aperçu SQL" tabindex="21"><input type="reset" class="control_at_footer" value="Réinitialiser" tabindex="22"></td></tr></tbody></table></fieldset></form><div id="gis_editor"></div><div id="popup_background"></div><br><form id="continueForm" method="post" action="tbl_replace.php" name="continueForm"><input type="hidden" name="db" value="prestige"><input type="hidden" name="table" value="products"><input type="hidden" name="token" value="3f5d7654d37342c00ec3823fd11f650c"><input type="hidden" name="goto" value="tbl_sql.php"><input type="hidden" name="err_url" value="tbl_sql.php?db=prestige&amp;amp;table=products&amp;amp;token=3f5d7654d37342c00ec3823fd11f650c"><input type="hidden" name="sql_query" value="">
+Continuer l'insertion avec <select name="insert_rows" id="insert_rows">
+<option value="1">1</option>
+<option value="2" selected="selected">2</option>
+<option value="5">5</option>
+<option value="10">10</option>
+<option value="15">15</option>
+<option value="20">20</option>
+<option value="30">30</option>
+<option value="40">40</option>
+</select>
+ lignes</form>
+</div><div id="selflink" class="print_ignore"><a href="http://localhost/phpmyadmin/tbl_change.php?db=prestige&amp;table=products&amp;server=1&amp;target=&amp;token=3f5d7654d37342c00ec3823fd11f650c" title="Ouvrir une nouvelle fenêtre phpMyAdmin" target="_blank" rel="noopener noreferrer"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="Ouvrir une nouvelle fenêtre phpMyAdmin" alt="Ouvrir une nouvelle fenêtre phpMyAdmin" class="icon ic_window-new"></a></div><div id="pma_errors" class="clearfloat"><div class="error"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_error"> mysqli_real_connect(): (HY000/1045): Access denied for user 'phpmyadmin'@'localhost' (using password: YES)</div><div class="error"><img src="localhost%20_%20localhost%20_%20prestige%20_%20products%20|%20phpMyAdmin%204.6.6deb5_fichiers/dot.gif" title="" alt="" class="icon ic_s_error"> La connexion au controluser tel que défini dans votre configuration a échoué.</div></div><div id="pma_footer"></div><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="position: absolute; top: 246.25px; left: 716.967px; z-index: 1; display: none;"><div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all"><a class="ui-datepicker-prev ui-corner-all" data-handler="prev" data-event="click" title="Précédent"><span class="ui-icon ui-icon-circle-triangle-w">Précédent</span></a><a class="ui-datepicker-next ui-corner-all" data-handler="next" data-event="click" title="Suivant"><span class="ui-icon ui-icon-circle-triangle-e">Suivant</span></a><div class="ui-datepicker-title"><span class="ui-datepicker-month">Décembre</span>&nbsp;<span class="ui-datepicker-year">2019</span></div></div><table class="ui-datepicker-calendar"><thead><tr><th scope="col" class="ui-datepicker-week-end"><span title="Dimanche">Di</span></th><th scope="col"><span title="Lundi">Lu</span></th><th scope="col"><span title="Mardi">Ma</span></th><th scope="col"><span title="Mercredi">Me</span></th><th scope="col"><span title="Jeudi">Je</span></th><th scope="col"><span title="Vendredi">Ve</span></th><th scope="col" class="ui-datepicker-week-end"><span title="Samedi">Sa</span></th></tr></thead><tbody><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">1</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">2</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">3</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">4</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">5</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">6</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">7</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">8</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">9</a></td><td class=" ui-datepicker-days-cell-over  ui-datepicker-today" data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default ui-state-highlight ui-state-hover" href="#">10</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">11</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">12</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">13</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">14</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">15</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">16</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">17</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">18</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">19</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">20</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">21</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">22</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">23</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">24</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">25</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">26</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">27</a></td><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">28</a></td></tr><tr><td class=" ui-datepicker-week-end " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">29</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">30</a></td><td class=" " data-handler="selectDay" data-event="click" data-month="11" data-year="2019"><a class="ui-state-default" href="#">31</a></td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td><td class=" ui-datepicker-week-end ui-datepicker-other-month ui-datepicker-unselectable ui-state-disabled">&nbsp;</td></tr></tbody></table><div class="ui-timepicker-div"><dl><dt class="ui_tpicker_time_label">Moment</dt><dd class="ui_tpicker_time">04:11:08</dd><dt class="ui_tpicker_hour_label">Heure</dt><dd class="ui_tpicker_hour"><div class="ui_tpicker_hour_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 17.3913%;"></span></div></dd><dt class="ui_tpicker_minute_label">Minute</dt><dd class="ui_tpicker_minute"><div class="ui_tpicker_minute_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 18.6441%;"></span></div></dd><dt class="ui_tpicker_second_label">Seconde</dt><dd class="ui_tpicker_second"><div class="ui_tpicker_second_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 13.5593%;"></span></div></dd><dt class="ui_tpicker_millisec_label" style="display:none;">Millisecond</dt><dd class="ui_tpicker_millisec"><div class="ui_tpicker_millisec_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="display:none;"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span></div></dd><dt class="ui_tpicker_microsec_label" style="display:none;">Microsecond</dt><dd class="ui_tpicker_microsec"><div class="ui_tpicker_microsec_slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" style="display:none;"><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span></div></dd><dt class="ui_tpicker_timezone_label" style="display:none;">Time Zone</dt><dd class="ui_tpicker_timezone" style="display:none;"><select><option value="-720">-1200</option><option value="-660">-1100</option><option value="-600">-1000</option><option value="-570">-0930</option><option value="-540">-0900</option><option value="-480">-0800</option><option value="-420">-0700</option><option value="-360">-0600</option><option value="-300">-0500</option><option value="-270">-0430</option><option value="-240">-0400</option><option value="-210">-0330</option><option value="-180">-0300</option><option value="-120">-0200</option><option value="-60">-0100</option><option value="0" selected="selected">+0000</option><option value="60">+0100</option><option value="120">+0200</option><option value="180">+0300</option><option value="210">+0330</option><option value="240">+0400</option><option value="270">+0430</option><option value="300">+0500</option><option value="330">+0530</option><option value="345">+0545</option><option value="360">+0600</option><option value="390">+0630</option><option value="420">+0700</option><option value="480">+0800</option><option value="525">+0845</option><option value="540">+0900</option><option value="570">+0930</option><option value="600">+1000</option><option value="630">+1030</option><option value="660">+1100</option><option value="690">+1130</option><option value="720">+1200</option><option value="765">+1245</option><option value="780">+1300</option><option value="840">+1400</option></select></dd></dl></div></div><div role="log" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>
